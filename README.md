@@ -1,4 +1,4 @@
-Example project for [Drizzle LiteFS SQLite package](https://github.com/drizzle-team/drizzle-orm/tree/main/drizzle-orm-sqlite) and [Bun](https://bun.sh)🚀
+Example project for [Drizzle LiteFS SQLite package](https://github.com/drizzle-team/drizzle-orm/tree/main/drizzle-orm-sqlite) and [Bun](https://bun.sh)🚀  
 Subscribe to our updates on [Twitter](https://twitter.com/DrizzleOrm)!
 
 ## Initial project setup

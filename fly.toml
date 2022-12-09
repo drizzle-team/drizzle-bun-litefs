@@ -1,0 +1,23 @@
+# fly.toml file generated for blue-snow-1158 on 2022-12-09T21:31:08+02:00
+
+app = "blue-snow-1158"
+
+[experimental]
+  enable_consul = true
+
+[mounts]
+  destination = "/mnt/sqlite"
+  source = "drizzle"
+
+[[services]]
+  internal_port = 8787
+  protocol = "tcp"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = "443"

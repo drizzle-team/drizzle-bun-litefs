@@ -1,0 +1,26 @@
+{
+  "name": "flyio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "generate": "drizzle-kit generate --schema=src/schema.ts --dialect=sqlite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "drizzle-kit": "^0.12.8",
+    "rome": "^10.0.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "bun-types": "^0.3.0",
+    "drizzle-orm": "^0.13.0",
+    "drizzle-orm-sqlite": "^0.13.0",
+    "minimist": "^1.2.7",
+    "tslib": "^2.4.1"
+  }
+}
